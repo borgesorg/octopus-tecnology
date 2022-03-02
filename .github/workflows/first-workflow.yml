@@ -24,7 +24,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo ${{ secrets.SECRET_VERSION }}.
-          echo ${{ GITHUB_ENV }}.
+          echo GITHUB_ENV.
 
 
           
